@@ -23,12 +23,11 @@ setup(
     packages=find_packages(exclude=('build', 'dist')),
     install_requires=[
         'pysam',
-        'numpy==1.17.2',
+        'numpy==1.19',
         'scipy',
         'scikit-learn==0.23',
         'matplotlib',
-        'igraph',
-        'pyinter'
+        'igraph'
     ],
     scripts=['bin/arcsv']
 )
