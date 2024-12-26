@@ -23,7 +23,7 @@ setup(
     packages=find_packages(exclude=('build', 'dist')),
     install_requires=[
         'pysam',
-        'numpy',
+        'numpy==1.17.2',
         'scipy',
         'scikit-learn',
         'matplotlib',
