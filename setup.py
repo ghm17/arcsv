@@ -23,9 +23,9 @@ setup(
     packages=find_packages(exclude=('build', 'dist')),
     install_requires=[
         'pysam',
-        'numpy==1.19',
+        'numpy',
         'scipy',
-        'scikit-learn==0.23',
+        'scikit-learn',
         'matplotlib',
         'igraph'
     ],
