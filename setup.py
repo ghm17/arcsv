@@ -25,7 +25,7 @@ setup(
         'pysam',
         'numpy==1.17.2',
         'scipy',
-        'scikit-learn',
+        'scikit-learn==0.19.1',
         'matplotlib',
         'igraph',
         'pyinter'
