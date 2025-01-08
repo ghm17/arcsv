@@ -27,6 +27,7 @@ setup(
         'scipy',
         'scikit-learn',
         'matplotlib',
+        ‘igraph’,
         'pyinter'
     ],
     scripts=['bin/arcsv']
