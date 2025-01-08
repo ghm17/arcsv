@@ -26,6 +26,7 @@ setup(
         'numpy==1.19',
         'scipy',
         'scikit-learn',
+        'matplotlib',
         'pyinter'
     ],
     scripts=['bin/arcsv']
