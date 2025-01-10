@@ -55,9 +55,6 @@ def align_strings(s1, s2, match=1000, mismatch=-1, gap=-1):
     def rest_of_path(i, j, aligned_1='', aligned_2='', scores=D,
                      affected_idx_1 = set(), affected_idx_2 = set()):
         if i == j == 0:
-            print(aligned_1[::-1])
-            print(aligned_2[::-1])
-            print('')
             return
         affected_idx_1, affected_idx_2 = set(), set()
         for (x, y) in prev[i,j]:
@@ -88,14 +85,6 @@ def align_strings(s1, s2, match=1000, mismatch=-1, gap=-1):
     return aff_1, aff_2
             
 def test_affected_len():        
-    print(align_strings('abcde', 'abdef'))
-    print('-'*50)
-    print(align_strings('aab', 'ab'))
-    print('-'*50)
-    print(align_strings('sjdioa', 'ssjjdioa'))
-
-    print('='*50)
-
     blocks = [GenomeInterval(1, 0, 100),
               GenomeInterval(1, 100, 150),
               GenomeInterval(1, 150, 300),
